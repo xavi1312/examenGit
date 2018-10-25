@@ -50,7 +50,7 @@ public abstract class CosaMobil extends Cosa {
      * Els personatges poden tornar enrere.
      */
     public final void mouUndo() {
-        GImage dibuix = getImatge();
+        GImage dibuix1 = getImatge();
         dibuix.movePolar(velocitat * -1, direccio.getValor());
     }
 
