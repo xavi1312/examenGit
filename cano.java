@@ -6,10 +6,16 @@ package net.davidvalles.batalla;
  *
  * @author david
  */
+
+
+
+
+
+
 public abstract class CosaMobil extends Cosa {
 
     /**
-     * Direcció del moviment.
+     * Direcciï¿½ del moviment.
      */
     private Direccio direccio;
     /**
@@ -49,19 +55,19 @@ public abstract class CosaMobil extends Cosa {
     }
 
     /**
-     * Defineix una nova direcció.
+     * Defineix una nova direcciï¿½.
      *
-     * @param dreta Direcció en que es vol moure
+     * @param dreta Direcciï¿½ en que es vol moure
      */
     public final void setDireccio(final Direccio dreta) {
         direccio = dreta;
     }
 
     /**
-     * Defineix una nova direcció i velocitat.
+     * Defineix una nova direcciï¿½ i velocitat.
      *
-     * @param dir Direcció en que es vol moure
-     * @param vel Velocitat a la que es mourà
+     * @param dir Direcciï¿½ en que es vol moure
+     * @param vel Velocitat a la que es mourï¿½
      */
     public final void setDireccioIVelocitat(final Direccio dir, final int vel) {
         direccio = dir;
@@ -69,9 +75,9 @@ public abstract class CosaMobil extends Cosa {
     }
 
     /**
-     * Retorna la direcció en la que s'està movent.
+     * Retorna la direcciï¿½ en la que s'estï¿½ movent.
      *
-     * @return la direcció en graus
+     * @return la direcciï¿½ en graus
      */
     public final Direccio getDireccio() {
         return direccio;
@@ -80,7 +86,7 @@ public abstract class CosaMobil extends Cosa {
     /**
      * Defineix una nova velocitat per l'objecte.
      *
-     * @param mida velocitat en píxels
+     * @param mida velocitat en pï¿½xels
      */
     public final void setVelocitat(final double mida) {
         velocitat = mida;
